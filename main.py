@@ -188,7 +188,7 @@ def format_result(card, api_json, user, user_id, elapsed):
         f"{b(f'[{curl}] Country:')} {m(country_str)}\n"
         f"━━━━━━━━━━━━━━━\n"
         f'{b(f"[{su}] Checked By:")} <a href="tg://user?id={user_id}">{esc(user)}</a>\n'
-        f"{b(f'[{su}] Dev:')} <a href=\"tg://user?id=7237320756\">Awmte - ☘️</a>\n"
+        f"{b(f'[{su}] Dev:')} <a href=\"tg://user?id=7237320756\">Awmtee - ☘️</a>\n"
         f"━━━━━━━━━━━━━━━\n"
         f"{b(f'[{ks}] T/t:')} {m(f'[{elapsed:.2f}sec] | P/x: [Live 🌥]')}\n"
     )
@@ -522,7 +522,7 @@ def check_card(message):
         markup = telebot.types.InlineKeyboardMarkup()
         markup.add(
             telebot.types.InlineKeyboardButton("Plans", url="https://t.me/Awmtee"),
-            telebot.types.InlineKeyboardButton("Updates", url="https://t.me/awmteee")
+            telebot.types.InlineKeyboardButton("Updates", url="https://t.me/mytricksl")
         )
         bot.edit_message_text(
             chat_id=message.chat.id,
